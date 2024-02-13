@@ -1,0 +1,72 @@
+/* Existing styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu ul {
+    display: flex;
+}
+
+.menu-item {
+    margin:  0  1rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item a:active {
+    text-decoration: none;
+    color: white;
+    background-color: wheat;
+}
+
+.close-btn {
+    position: absolute;
+    top:  1rem;
+    right:  1rem;
+    cursor: pointer;
+    /* Other styles as needed */
+}
+
+
+/* Mobile view styles */
+@media only screen and (max-width:  769px) {
+    .navbar-menu {
+        position: fixed;
+        top:  0;
+        left:  0;
+        width:  0;
+        height:  100%;
+        overflow: hidden;
+        transition: width  0.3s ease;
+        z-index:  999;
+    }
+
+    .navbar-menu.open {
+        width:  100%;
+        background-color: #333; /* Adjust background color as needed */
+    }
+
+    .toggle-btn {
+        display: block; /* Show toggle button on mobile */
+    }
+
+    .navbar-menu ul {
+        flex-direction: column; /* Stack menu items vertically */
+        padding:  1rem; /* Add padding inside the drawer */
+    }
+
+    .menu-item {
+        margin:  1rem  0; /* Add vertical margins between menu items */
+    }
+}
+
+/* Hide toggle button on larger screens */
+@media only screen and (min-width:  769px) {
+    .toggle-btn {
+        display: none;
+    }
+}

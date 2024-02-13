@@ -1,0 +1,25 @@
+.landing{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner-img{
+    height: 350px;
+    width: auto;
+    border: solid 5px white;
+}
+
+
+.cta-text{
+    text-align: left;
+
+}
+
+@media (max-width: 768px) {
+    .banner-img{
+        height: 150px;
+    }
+
+    .cta-text{
+        margin-left: 5px;
+    }
+}
