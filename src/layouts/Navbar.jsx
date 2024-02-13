@@ -13,13 +13,17 @@ const Navbar = () => {
                 <div className="navbar-logo">
                     <p>Ondicho</p>
                 </div>
-                <button className="toggle-btn" onClick={toggleNavbar}>
-                    {navbarOpen ? <FiX /> : <FiMenu />}
-                </button>
-                <div className={`navbar-menu ${navbarOpen ? 'open' : ''}`}>
-                    <button className="close-btn" onClick={toggleNavbar}>
-                        <FiX />
+                {!navbarOpen && (
+                    <button className="toggle-btn" onClick={toggleNavbar}>
+                        <FiMenu />
                     </button>
+                )}
+                <div className={`navbar-menu ${navbarOpen ? 'open' : ''}`}>
+                    {navbarOpen && (
+                        <button className="close-btn" onClick={toggleNavbar}>
+                            <FiX />
+                        </button>
+                    )}
                     <ul>
                         <li className='menu-item'><Link to="/">Home</Link></li>
                         <li className='menu-item'><Link to="#portfolio">Portfolio</Link></li>
@@ -31,5 +35,6 @@ const Navbar = () => {
         </>
     );
 };
+
 
 export default Navbar;

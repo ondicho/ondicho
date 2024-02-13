@@ -20,7 +20,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="footer-column">
-                            <h4>EUMAKE</h4>
+                            <h4>NAV LINKS</h4>
                             <ul>
                                 <li><p className='footer-nav'>Home</p></li>
                                 <li><p className='footer-nav'>Portfolio</p></li>

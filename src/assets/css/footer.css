@@ -51,3 +51,14 @@ ul {
     text-align: initial;
     display: flex;
   }
+
+
+  @media only screen and (max-width:  769px) {
+    .footer-menus{
+        flex-direction: column;
+    }
+
+    .bottom-footer{
+        flex-direction: column;
+    }
+  }

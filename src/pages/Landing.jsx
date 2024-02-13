@@ -3,20 +3,24 @@ import '../assets/css/landing.css';
 import banner from '../assets/images/landing.jpg'
 
 
-const Landing = () => {
+const Landing = ({ isMobile }) => {
 
     return (
-        <div className="main-container landing">
-            <div className="banner">
-                <img className="banner-img" src={banner} alt="banner" />
-            </div>
+        <div className={`main-container landing ${isMobile ? 'mobile' : ''}`}>
+            {isMobile ? (
+                <div className="banner-background" style={{ backgroundImage: `url(${banner})` }} />
+            ) : (
+                <div className="banner">
+                    <img className="banner-img" src={banner} alt="banner" />
+                </div>
+            )}
             <div className="cta">
                 <div className="cta-text">
                     <p>
                         Albert Ondicho,
                     </p>
                     <p>
-                    Software Engineer based in Nairobi.
+                        Software Engineer based in Nairobi.
                     </p>
                 </div>
                 <div className="cta-action">

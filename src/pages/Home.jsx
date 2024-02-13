@@ -9,6 +9,9 @@ import Landing from './Landing';
 
 const Home = () => {
 
+    const isMobile = window.innerWidth <=  768;
+
+
     return (
         <>
             <Helmet>
@@ -22,8 +25,8 @@ const Home = () => {
                 <meta property="og:url" content="https://ondicho.dev" />
             </Helmet>
             <Navbar />
-            <Landing />
-            {/* <Portfolio /> */}
+            <Landing isMobile={isMobile} />
+            <Portfolio />
             <Footer />
 
         </>

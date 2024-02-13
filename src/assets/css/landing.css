@@ -1,6 +1,11 @@
 .landing{
     display: flex;
     justify-content: space-evenly;
+    position: relative;
+}
+
+.cta{
+    width: inherit;
 }
 .banner-img{
     height: 350px;
@@ -14,12 +19,33 @@
 
 }
 
+
+
+
 @media (max-width: 768px) {
-    .banner-img{
+    .landing .navbar {
+        position: absolute;
+        top:  0;
+        /* Additional styling to position the navbar on top of the image */
+    }
+
+    .landing .toggle-btn {
+        position: absolute;
+        top:  0;
+        /* Additional styling to position the toggle button on top of the image */
+    }
+
+    .banner-background {
+        height:  100vh; /* Full viewport height */
+        background-size: cover; /* Responsive background */
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /* .banner-img{
         height: 150px;
     }
 
     .cta-text{
         margin-left: 5px;
-    }
+    } */
 }
