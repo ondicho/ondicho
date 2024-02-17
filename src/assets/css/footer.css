@@ -15,6 +15,7 @@ ul {
 }
 
 .top-footer {
+    padding-top: 5rem;
     text-align: center;
     height: auto;
     display: flex;
