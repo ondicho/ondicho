@@ -13,7 +13,7 @@
   .project {
     border: none;
     display: flex;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow:  2px 2px 4px 4px rgba(0, 0, 0, 0.1);
     
     /* padding: 20px; */
@@ -23,13 +23,13 @@
     padding: 0.5rem;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
+    text-align: left;
+    margin-left: 1rem;
   }
   
   .project img {
     width: 300px;
-    height: -webkit-fill-available;
-    border-radius: 5px;
-    /* margin-bottom: 10px; */
+    border-radius: 20px;
   }
   
   .project-details h3 {
@@ -70,4 +70,14 @@
     .project img {
       width: -webkit-fill-available;
   }
+  }
+
+
+  @media (min-width: 1220px) {
+
+    .projects{
+      width: 90%;
+      justify-content: center;
+      margin:  0 auto;
+    }
   }

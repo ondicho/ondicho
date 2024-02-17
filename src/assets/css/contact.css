@@ -1,0 +1,75 @@
+.contact{
+    height: auto;
+}
+
+.form-container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.form-group{
+    display: flex;
+}
+
+
+label{
+    width: 150px;
+}
+
+textarea{
+    height: 300px;
+}
+
+input,
+select,
+textarea {
+  border:  2px solid #333;
+  background-color: white;
+  color: black;
+  border-radius:  0.25rem;
+  font:  1.25rem /  1.5 sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width:  100%;
+  padding:  0.5rem  0.75rem;
+  margin-bottom:  1rem;
+}
+
+/* Styling specific text entry fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  /* Additional styles for text entry fields */
+}
+
+/* Styling the submit button */
+button[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding:  0.5rem  1rem;
+  border-radius:  0.25rem;
+  cursor: pointer;
+  border: none;
+  font-size:  1rem;
+  float: right;
+  margin: 1rem;
+}
+
+/* Styling for form groups */
+.form-group {
+  margin-bottom:  1rem;
+}
+
+/* Styling for form labels */
+label {
+  display: block;
+  margin-bottom:  0.5rem;
+}
+
+/* Additional styles for specific form elements */
+/* For example, styling checkboxes and radio buttons */
+/* label > input[type=checkbox] + span,
+label > input[type=radio] + span {
+  /* styles for checkbox and radio labels */

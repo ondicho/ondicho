@@ -15,6 +15,15 @@
   height: 100%;
 }
 
+
+
+body {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  margin: 0 auto!important;
+  /* padding: 2rem; */
+  text-align: center;
+}
 a {
   font-weight: 500;
   color: #646cff;

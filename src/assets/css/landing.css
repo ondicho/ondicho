@@ -42,3 +42,12 @@
     flex-direction: column;
   }
 }
+
+  @media (min-width: 1220px) {
+
+    .projects{
+      width: 90%;
+      justify-content: center;
+      margin:  0 auto;
+    }
+  }

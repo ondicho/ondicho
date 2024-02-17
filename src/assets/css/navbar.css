@@ -1,7 +1,11 @@
 /* Existing styles */
 .navbar {
+    width: -webkit-fill-available;
     display: flex;
     justify-content: space-between;
+    margin: 0.5rem;
+    /* background: linear-gradient(135deg, #5b5c5e  0%, #c3cfe2  100%);
+    box-shadow:  0  5px  15px rgba(0,  0,  0,  0.1); */
 }
 
 
@@ -46,6 +50,13 @@
 .navbar-logo>p {
     font-weight: bold;
 }
+
+/* .toggle-btn{
+    background: linear-gradient(135deg, #5b5c5e  0%, #c3cfe2  100%);
+    box-shadow:  0  5px  15px rgba(0,  0,  0,  0.1);
+    border: none;
+    border-radius: 0;
+} */
 
 
 /* Mobile view styles */
