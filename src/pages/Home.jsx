@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet';
 import Navbar from '../layouts/Navbar';
 import Footer from '../layouts/Footer';
 import Portfolio from './Portfolio';
-import Landing from './Landing';
 import Carousel from './Carousel'; // Import the Carousel component
+import Services from './Services';
 
 const Home = () => {
     const isMobile = window.innerWidth <=  768;
@@ -27,6 +27,7 @@ const Home = () => {
             <Navbar />
             <Carousel options={carouselOptions} /> {/* Call the Carousel component here */}
             <Portfolio />
+            <Services />
             <Footer />
         </>
     )

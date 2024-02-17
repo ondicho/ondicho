@@ -1,32 +1,34 @@
-// PortfolioData.js
+import banner from '../assets/images/landing.jpg'
+import banner2 from '../assets/images/banner.jpeg'
+import eumake from '../assets/images/eumake.png'
 
 const PortfolioData = [
     {
-      name: "Project 1",
+      name: "Eumake",
       stack: "React, Node.js",
-      image: "project1.jpg",
-      url: "https://example.com/project1",
-      client: "Client A"
+      image: eumake,
+      url: eumake,
+      client: "Eumake Diagnostic Laboratory"
     },
     {
       name: "Project 2",
       stack: "Angular, MongoDB",
-      image: "project2.jpg",
-      url: "https://example.com/project2",
+      image: eumake,
+      url: eumake,
       client: "Client B"
     },
     {
       name: "Project 3",
       stack: "Vue.js, Firebase",
-      image: "project3.jpg",
-      url: "https://example.com/project3",
+      image: eumake,
+      url: eumake,
       client: "Client C"
     },
     {
       name: "Project 4",
       stack: "Express.js, PostgreSQL",
-      image: "project4.jpg",
-      url: "https://example.com/project4",
+      image: eumake,
+      url: eumake,
       client: "Client D"
     }
   ];

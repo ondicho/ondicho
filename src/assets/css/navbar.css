@@ -4,6 +4,7 @@
     justify-content: space-between;
 }
 
+
 .navbar-menu ul {
     display: flex;
 }
@@ -41,6 +42,9 @@
     right:  1rem;
     cursor: pointer;
     /* Other styles as needed */
+}
+.navbar-logo>p {
+    font-weight: bold;
 }
 
 
