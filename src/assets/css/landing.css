@@ -1,5 +1,22 @@
 .service-list{
     display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.service{
+    padding: 1rem;
+    width: 300px;
+}
+
+.service-icon{
+  text-align: center;
+}
+
+.service-icon>img{
+    height: 50px;
+    width: 50px;
+   
 }
 
 .service-description{
