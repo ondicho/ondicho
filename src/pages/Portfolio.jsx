@@ -9,7 +9,7 @@ const Portfolio = () => {
         <div className="main-container portfolio">
             <h2>Featured Projects</h2>
             <div className="projects">
-                {portfolioData.slice(2).map((project, index) => (
+                {portfolioData.slice(0,2).map((project, index) => (
                     <div key={index} className="project">
                         <img src={project.image} alt={project.name} />
                         <div className="project-details">

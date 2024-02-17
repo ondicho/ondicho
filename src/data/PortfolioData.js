@@ -1,5 +1,5 @@
 import banner from '../assets/images/landing.jpg'
-import banner2 from '../assets/images/banner.jpeg'
+import rms from '../assets/images/rms.png'
 import eumake from '../assets/images/eumake.png'
 
 const PortfolioData = [
@@ -11,11 +11,11 @@ const PortfolioData = [
       client: "Eumake Diagnostic Laboratory"
     },
     {
-      name: "Project 2",
-      stack: "Angular, MongoDB",
-      image: eumake,
-      url: eumake,
-      client: "Client B"
+      name: "Keja",
+      stack: "React, Springboot",
+      image: rms,
+      url: rms,
+      client: "Software As A Service(SAAS)"
     },
     {
       name: "Project 3",
