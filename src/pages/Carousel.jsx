@@ -15,7 +15,7 @@ export const images = [
       <p>Software Engineer based in Nairobi.</p>
     </div>
     <div className="cta-action">
-      <button className='cta-button'>View Portfolio</button>
+      {/* <button className='cta-button'>View Portfolio</button> */}
     </div>
   </div>
 ];

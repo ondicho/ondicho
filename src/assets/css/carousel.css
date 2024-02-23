@@ -80,4 +80,20 @@
 
   @media (max-width: 768px) {
    
+    .image-wrapper {
+      display: block;
+      height: var(--slide-height);
+      width: -webkit-fill-available;
+      object-fit: cover;
+    }
+
+    .image-wrapper>img {
+      height: 140%;
+  }
+   .cta-text{
+    font-weight: bold;
+    width: max-content;
+    text-align: initial;
+    color: rgb(75, 75, 75);
+   }
   }

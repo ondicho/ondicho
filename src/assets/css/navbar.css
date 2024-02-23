@@ -7,6 +7,14 @@
     /*box-shadow:  0  5px  15px rgba(0,  0,  0,  0.1); */
 }
 
+.navbar-logo{
+    margin-left: 2rem ;
+}
+
+.navbar-logo p a{
+   text-decoration: none;
+   color: white;
+}
 
 .navbar-menu ul {
     display: flex;
@@ -89,6 +97,10 @@
         overflow: hidden;
         transition: width 0.5s ease;
         z-index:  999;
+    }
+
+    .navbar-logo{
+        margin-left: 1rem ;
     }
 
     .navbar-menu.open {

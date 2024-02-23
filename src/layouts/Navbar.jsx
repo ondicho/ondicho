@@ -11,7 +11,7 @@ const Navbar = () => {
         <>
             <div className="navbar">
                 <div className="navbar-logo">
-                    <p>Ondicho</p>
+                    <p><NavLink to="/">Ondicho</NavLink></p>
                 </div>
                 {!navbarOpen && (
                     <button className="toggle-btn" onClick={toggleNavbar}>

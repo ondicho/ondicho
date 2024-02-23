@@ -34,6 +34,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(135deg, #adc8fd  0%, #646668  100%);
 }
 
 .footer-text {

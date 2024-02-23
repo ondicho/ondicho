@@ -49,6 +49,11 @@
   .service-list{
     flex-direction: column;
   }
+  .service-list {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
 }
 
   @media (min-width: 1220px) {
@@ -58,4 +63,6 @@
       justify-content: center;
       margin:  0 auto;
     }
+
+    
   }
