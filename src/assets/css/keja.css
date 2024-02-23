@@ -1,0 +1,59 @@
+.keja{
+    min-height: 50vh;
+}
+
+.keja-body{
+    width: -webkit-fill-available;
+}
+
+
+/* CSS for right alignment */
+.keja-section-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* CSS for left alignment */
+.keja-section-left {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.keja-section-image{
+    width: 50%;
+}
+
+.keja-image{
+    width:100% ;
+}
+
+.keja-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Optionally, you can set a width and height if needed */
+    width:  50%; /* Adjust as needed */
+}
+
+
+@media only screen and (max-width:  769px) {
+    .keja-section{
+        flex-direction: column;
+    }
+
+    .keja-section-image{
+        width: -webkit-fill-available;
+    }
+
+    .keja-section-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* Optionally, you can set a width and height if needed */
+        width:  100%; /* Adjust as needed */
+    }
+}

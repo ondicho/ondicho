@@ -7,14 +7,14 @@ const PortfolioData = [
       name: "Eumake",
       stack: "React, Node.js",
       image: eumake,
-      url: eumake,
+      url: "https://eumake.co.ke/",
       client: "Eumake Diagnostic Laboratory"
     },
     {
       name: "Keja",
       stack: "React, Springboot",
       image: rms,
-      url: rms,
+      url: "/keja",
       client: "Software As A Service(SAAS)"
     },
     {

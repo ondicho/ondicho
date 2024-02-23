@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/css/navbar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import useToggle from '../hooks/UseToggle';
 
@@ -25,16 +25,15 @@ const Navbar = () => {
                         </button>
                     )}
                     <ul>
-                        <li className='menu-item'><Link to="/">Home</Link></li>
-                        <li className='menu-item'><Link to="#portfolio">Portfolio</Link></li>
-                        <li className='menu-item'><Link to="/cv">CV</Link></li>
-                        <li className='menu-item'><Link to="/contact">Get In Touch</Link></li>
+                        <li className='menu-item'><NavLink to="/" activeClassName="active-link">Home</NavLink></li>
+                        <li className='menu-item'><NavLink to="/portfolio" activeClassName="active-link">Portfolio</NavLink></li>
+                        <li className='menu-item'><NavLink to="/cv" activeClassName="active-link">CV</NavLink></li>
+                        <li className='menu-item'><NavLink to="/contact" activeClassName="active-link">Get In Touch</NavLink></li>
                     </ul>
                 </div>
             </div>
         </>
     );
 };
-
 
 export default Navbar;

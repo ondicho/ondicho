@@ -1,14 +1,14 @@
 import React from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 
-import banner from '../assets/images/landing.jpg';
+import banner from '../assets/images/ondicho.jpg';
 import banner2 from '../assets/images/banner.jpeg';
 import '../assets/css/carousel.css'
 
 // Add the cta div as the second item in the images array
 export const images = [
 //   banner,
-  banner2,
+  banner,
   <div className="cta">
     <div className="cta-text">
       <p>Albert Ondicho,</p>

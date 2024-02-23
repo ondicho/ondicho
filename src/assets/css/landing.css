@@ -1,7 +1,11 @@
+.services{
+    margin: 0 auto;
+}
 .service-list{
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    text-align: center;
 }
 
 .service{
@@ -15,6 +19,10 @@
     position: relative;
 }
 
+
+.cta-button{
+  background: linear-gradient(135deg, #468a9b   0%, #dcdcc0   100%);
+}
   
 
 .service-icon{

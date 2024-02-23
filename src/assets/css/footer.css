@@ -1,3 +1,8 @@
+.footer{
+    margin: 0 auto;
+    justify-content: center;
+}
+
 ul {
     list-style: none;
 }
@@ -37,6 +42,11 @@ ul {
     padding-bottom: 5px;
     color: white;
     margin: 0px 10px;
+  }
+
+  .footer-column{
+    margin: 0 auto;
+    justify-content: center;
   }
   
 
