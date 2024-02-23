@@ -2,6 +2,25 @@
     min-height: 50vh;
 }
 
+.keja-header {
+    height:  150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('../images/keja-banner.jpg');
+    background-size: contain; /* Optional: to cover the entire div */
+    background-repeat: no-repeat; /* Optional: to prevent repeating */
+    color: black;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+
+
+.keja-header h2{
+    margin-right: 2rem;
+}
 .keja-body{
     width: -webkit-fill-available;
 }

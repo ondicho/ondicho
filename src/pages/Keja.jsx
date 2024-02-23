@@ -32,7 +32,7 @@ const Keja = () => {
     return (
         <div className='main-container keja'>
             <div className="keja-header">
-                <h2>Keja, Coming Soon!!</h2>
+                <h2>Keja</h2>
             </div>
             <div className="keja-body">
                 {kejaData.map((section, index) => (
