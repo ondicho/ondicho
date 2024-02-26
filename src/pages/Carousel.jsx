@@ -8,7 +8,7 @@ import '../assets/css/carousel.css'
 // Add the cta div as the second item in the images array
 export const images = [
 //   banner,
-  banner,
+  banner2,
   <div className="cta">
     <div className="cta-text">
       <p>Albert Ondicho,</p>
