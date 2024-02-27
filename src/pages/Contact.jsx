@@ -52,20 +52,21 @@ const Contact = () => {
                     </div>
                     <div className="wrapper">
                         <div className="color black">
-                            Basic (5 webpages)
-                            <span className="hex">$ 600</span>
+                            Advanced (website + admin dashboard)
+                            <span className="hex">$ 1200</span>
                         </div>
                         <div className="color chinese-black">
-                        Standard (10 Webpages+ seo)
-                            <span className="hex">$ 600</span>
+                            Standard (10 Webpages+ seo)
+                            <span className="hex">$ 800</span>
                         </div>
                         <div className="color night-rider">
-                        Advanced (website + admin dashboard)
-                            <span className="hex">$ 600</span>
+
+                            Basic (5 webpages)
+                            <span className="hex">$ 300</span>
                         </div>
                         <div className="color chinese-white white">
-                        Annual Hosting (Billed Separately)
-                            <span className="hex">$ 10</span>
+                            Annual Hosting (Billed Separately)
+                            <span className="hex">$ 20</span>
                         </div>
                         {/* <div className="color anti-flash-white">
                             anti-flash-white
@@ -75,7 +76,7 @@ const Contact = () => {
                             white
                             <span className="hex">#ffffff</span>
                         </div> */}
-                        <div className="border">common border radius <span>5px | 8px</span></div>
+                        <div className="border"><span>30% Deposit required on project onset</span></div>
                     </div>
                 </div>
             </div>
