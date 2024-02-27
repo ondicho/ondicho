@@ -80,6 +80,7 @@
     top:  1rem;
     right:  1rem;
     cursor: pointer;
+    border: solid 1px #242424;
     /* Other styles as needed */
 }
 .navbar-logo>p {
@@ -87,7 +88,7 @@
 }
 
 .toggle-btn{
-    background: linear-gradient(135deg, #adc8fd  0%, #646668  100%);
+    /* background: linear-gradient(135deg, #adc8fd  0%, #646668  100%); */
     box-shadow:  0  5px  15px rgba(0,  0,  0,  0.1);
     border: none;
     border-radius: 0;
@@ -113,13 +114,14 @@
 
     .navbar-menu.open {
         width:  75%;
-        background-color: #333; /* Adjust background color as needed */
+        background: linear-gradient(#fff,#242424);
         
         
     }
 
     .toggle-btn {
         display: block; /* Show toggle button on mobile */
+       
     }
 
     .navbar-menu ul {

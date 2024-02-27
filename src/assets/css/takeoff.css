@@ -1,0 +1,46 @@
+.takeOff {
+    background-image: url('/src/assets/images/banner.jpeg');
+    background-size: inherit;
+    background-position-y: center;
+    background-position-x: center;
+    object-fit: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    color: #464a4b;
+    font-size: x-large;
+    margin: 0 auto;
+    display: flex;
+    font-weight: bold;
+}
+
+.cta-text {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    align-self: center;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+
+@media only screen and (max-width:  768px) {
+    .cta-text{
+       align-self: self-end;
+    }
+
+}
+
+@media only screen and (max-width:  1200px) {
+    .takeOff{
+        background-position-y:center;
+        background-size: cover;
+    }
+
+}
+
+@media only screen and (min-width:  1200px) {
+    .takeOff{
+      font-size: large;
+    }
+
+}

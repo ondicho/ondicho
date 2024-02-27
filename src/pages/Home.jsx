@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet';
 import Navbar from '../layouts/Navbar';
 import Footer from '../layouts/Footer';
 import Portfolio from './Portfolio';
-import Carousel from './Carousel'; // Import the Carousel component
 import Services from './Services';
 import Contact from './Contact';
+import Takeoff from './Takeoff';
 
 const Home = () => {
     const isMobile = window.innerWidth <=  768;
@@ -26,7 +26,7 @@ const Home = () => {
                 <meta property="og:url" content="https://ondicho.dev" />
             </Helmet>
             <Navbar />
-            <Carousel options={carouselOptions} /> {/* Call the Carousel component here */}
+            <Takeoff />
             <Portfolio />
             <Services />
             <Contact />
