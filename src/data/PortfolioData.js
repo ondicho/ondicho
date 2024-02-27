@@ -18,18 +18,11 @@ const PortfolioData = [
       client: "Software As A Service(SAAS)"
     },
     {
-      name: "Project 3",
-      stack: "Vue.js, Firebase",
+      name: "Portfolio",
+      stack: "ReactJs",
       image: eumake,
       url: eumake,
-      client: "Client C"
-    },
-    {
-      name: "Project 4",
-      stack: "Express.js, PostgreSQL",
-      image: eumake,
-      url: eumake,
-      client: "Client D"
+      client: "Self"
     }
   ];
   

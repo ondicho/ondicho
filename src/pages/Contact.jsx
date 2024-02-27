@@ -24,22 +24,63 @@ const Contact = () => {
 
     return (
         <div className='main-container contact'>
-            <h2>Get In Touch</h2>
-            <form className="form-container">
-                <div className="form-group">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" id="name" name="name" required />
+            <h6 className='heading'>Contact </h6>
+            <div className="contact-body">
+
+                <form className="form-container">
+
+                    <div className="form-group">
+                        <label htmlFor="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div className="blog">
+
+
+                    <div className="title">
+                        <p className="desc">Rate card prices may vary</p>
+                    </div>
+                    <div className="wrapper">
+                        <div className="color black">
+                            Basic (5 webpages)
+                            <span className="hex">$ 600</span>
+                        </div>
+                        <div className="color chinese-black">
+                        Standard (10 Webpages+ seo)
+                            <span className="hex">$ 600</span>
+                        </div>
+                        <div className="color night-rider">
+                        Advanced (website + admin dashboard)
+                            <span className="hex">$ 600</span>
+                        </div>
+                        <div className="color chinese-white white">
+                        Annual Hosting (Billed Separately)
+                            <span className="hex">$ 10</span>
+                        </div>
+                        {/* <div className="color anti-flash-white">
+                            anti-flash-white
+                            <span className="hex">#f3f3f3</span>
+                        </div>
+                        <div className="color white">
+                            white
+                            <span className="hex">#ffffff</span>
+                        </div> */}
+                        <div className="border">common border radius <span>5px | 8px</span></div>
+                    </div>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <input type="email" id="email" name="email" required />
-                </div>
-                <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+            </div>
+
+
 
         </div>
     );

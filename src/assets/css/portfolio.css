@@ -6,64 +6,103 @@
 
 .projects {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 20px;
 }
 
-.project {
-  border: none;
+.card {
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+  background: linear-gradient(#242424,#fff);
   display: flex;
-  border-radius: 20px;
-  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.1);
-
-  /* padding: 20px; */
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
-.project-details {
-  padding: 0.5rem;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
-  text-align: left;
-  margin-left: 1rem;
+/* .card:hover{
+  background-image: url("../images/eumake.png");
+  
+} */
+
+/* .card::before {
+  content: "";
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: -40%;
+  left: -20%;
+  border-radius: 50%;
+  border: 35px solid rgba(255, 255, 255, 0.102);
+  transition: all .8s ease;
+  filter: blur(.5rem);
+} */
+
+.text {
+  flex-grow: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 1.2em;
 }
 
-.project img {
-  width: 300px;
-  border-radius: 20px 0px 0px 20px;
+.subtitle {
+  font-size: .6em;
+  font-weight: 300;
+  color: rgba(240, 248, 255, 0.691);
 }
 
-.project-details h3 {
-  margin-top: 0;
+.icons {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 350px;
+  border-radius: 0px 0px 15px 15px;
+  overflow: hidden;
 }
 
-.project-details a {
-  display: inline-block;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-  margin-top: 10px;
+.btn {
+  border: none;
+  width: 124px;
+  height: 35px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.project-details a:hover {
-  background-color: #0056b3;
+.svg-icon {
+  width: 25px;
+  height: 25px;
+  stroke: rgb(38, 59, 126);
 }
 
-a.project-button {
-  float: inline-end;
-  margin: 1rem;
-  bottom: 0;
+.btn:hover {
+  background-color: rgb(247, 234, 234);
 }
 
+.card:hover::before {
+  width: 140px;
+  height: 140px;
+  top: -30%;
+  left: 50%;
+  filter: blur(0rem);
+}
 
 @media (max-width: 768px) {
 
+
   .projects {
     flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
   }
 
   .project {
+    width: 90%;
     flex-direction: column;
   }
 

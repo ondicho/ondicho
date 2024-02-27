@@ -1,11 +1,43 @@
 .contact{
+  margin-top: 1rem;
     height: auto;
+    width: -webkit-fill-available;
     /* min-height: 40vh; */
 }
 
+/* h4{
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+/* } */
+
+.contact-body{
+  display: flex;
+  width: inherit;
+}
+
 .form-container{
-    max-width: 90%;
+    /* max-width: 90%; */
     margin: 0 auto;
+    width: 50%;
+}
+
+.blog{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  --black: #000000;
+  --ch-black: #141414;
+  --eer-black: #1b1b1b;
+  --night-rider: #2e2e2e;
+  --white: #ffffff;
+  --af-white: #f3f3f3;
+  --ch-white: #e1e1e1;
+  font-family: Helvetica, sans-serif;
 }
 
 .form-group{
@@ -24,7 +56,7 @@ textarea{
 input,
 select,
 textarea {
-  border:  2px solid #333;
+  border: 1px solid rgb(219, 213, 213);
   background-color: white;
   color: black;
   border-radius:  0.25rem;
@@ -32,7 +64,7 @@ textarea {
   display: block;
   box-sizing: border-box;
   width:  100%;
-  padding:  0.5rem  0.75rem;
+  padding: 8px 14px;
   margin-bottom:  1rem;
 }
 
@@ -47,16 +79,21 @@ textarea {
 
 /* Styling the submit button */
 button[type="submit"] {
-  background-color: #333;
-  color: white;
-  padding:  0.5rem  1rem;
-  border-radius:  0.25rem;
+ float: inline-end;
+  padding: 12px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background: linear-gradient(135deg, #5b5c5e  0%, #c3cfe2  100%);
+  color: #fff;
   cursor: pointer;
-  border: none;
-  font-size:  1rem;
-  float: right;
-  margin: 1rem;
-  position: inherit;
+}
+
+button[type="submit"]:hover{
+  background: linear-gradient(white  ,grayscale);
+  color: black;
 }
 
 /* Styling for form groups */
@@ -70,8 +107,118 @@ label {
   margin-bottom:  0.5rem;
 }
 
-/* Additional styles for specific form elements */
-/* For example, styling checkboxes and radio buttons */
-/* label > input[type=checkbox] + span,
-label > input[type=radio] + span {
-  /* styles for checkbox and radio labels */
+
+.wrapper {
+  margin: 2rem auto;
+  width: 350px;
+  font-size: small;
+}
+
+.title {
+  text-align: center;
+  color: #1b1b1b;
+}
+
+.heading {
+  font-weight: bold;
+  letter-spacing: 7px;
+  font-size: 1.5rem;
+  position: relative;
+  margin-bottom: 6px;
+}
+
+.heading::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #e8e8e8;
+  z-index: -1;
+  filter: blur(50px);
+  height: 50px;
+}
+
+.color {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hex {
+  text-align: end;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.black {
+  background: var(--black);
+  color: var(--ch-white);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.eerie-black {
+  background: var(--ch-black);
+  color: var(--ch-white);
+}
+
+.chinese-black {
+  background: var(--eer-black);
+  color: var(--ch-white);
+}
+
+.night-rider {
+  background: var(--night-rider);
+  color: var(--ch-white);
+}
+
+.chinese-white {
+  background: var(--ch-white);
+  color: var(--night-rider);
+}
+
+.anti-flash-white {
+  background: var(--af-white);
+  color: var(--night-rider);
+}
+
+.white {
+  background: var(--white);
+  color: var(--night-rider);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.border {
+  color: var(--night-rider);
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.border span {
+  border-radius: 5px;
+  color: var(--ch-white);
+  padding: 2px 4px;
+  background-color: var(--night-rider);
+}
+
+@media (max-width: 768px) {
+
+  .contact-body{
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  }
+
+  
+  .form-container{
+      /* max-width: 90%; */
+      margin: 0 auto;
+      width: 90%;
+  }
+  
+  .blog{
+    width: 100%;
+  }
+
+}
