@@ -6,6 +6,7 @@ import Portfolio from './Portfolio';
 import Services from './Services';
 import Contact from './Contact';
 import Takeoff from './Takeoff';
+import WavyBackground from '../layouts/WavyBackground';
 
 const Home = () => {
     const isMobile = window.innerWidth <=  768;
@@ -28,6 +29,7 @@ const Home = () => {
             <Navbar />
             <Takeoff />
             <Portfolio />
+            {/* <WavyBackground primaryColor="#fff" secondaryColor="#242424" /> */}
             <Services />
             <Contact />
             <Footer />

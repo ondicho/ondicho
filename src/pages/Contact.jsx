@@ -24,7 +24,7 @@ const Contact = () => {
 
     return (
         <div className='main-container contact'>
-            <h6 className='heading'>Contact </h6>
+            <h6 className='heading'>Get In Touch </h6>
             <div className="contact-body">
 
                 <form className="form-container">

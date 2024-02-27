@@ -1,0 +1,17 @@
+.wavy-background {
+    height:  100px; /* Adjust height as needed */
+    background: linear-gradient(45deg, #007bff  25%, #007bff  50%, #00ff7f  50%, #00ff7f  75%);
+    background-size:  200%  100%;
+    background-position: left bottom;
+    animation: wave-animation  3s linear infinite;
+  }
+  
+  @keyframes wave-animation {
+     0% {
+      background-position: left bottom;
+    }
+     100% {
+      background-position: right bottom;
+    }
+  }
+  

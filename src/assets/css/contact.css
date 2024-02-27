@@ -124,7 +124,7 @@ label {
   letter-spacing: 7px;
   font-size: 1.5rem;
   position: relative;
-  margin-bottom: 6px;
+  margin-bottom: 2rem;
 }
 
 .heading::before {
@@ -220,5 +220,15 @@ label {
   .blog{
     width: 100%;
   }
+
+}
+
+@media (min-width: 1080px) {
+
+.wrapper {
+  margin: 2rem auto;
+  width: 550px;
+  font-size: small;
+}
 
 }
